@@ -1,0 +1,16 @@
+{
+  "name": "pledge",
+  "version": "1.0.0",
+  "description": "Create, send and store contracts with your agent. Pledge asks what you need, drafts the contract from your templates, shows it in the chat and sends it for signing when you say so.",
+  "author": {
+    "name": "Ur Solutions AS",
+    "email": "contact@ursolutions.no"
+  },
+  "skills": "./skills/",
+  "mcpServers": {
+    "pledge": {
+      "url": "https://www.pledge.no/api/mcp"
+    }
+  },
+  "logo": "assets/icon.svg"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pledge",
+  "description": "Pledge: create, send and store contracts with your agent.",
+  "owner": {
+    "name": "Ur Solutions",
+    "url": "https://www.pledge.no"
+  },
+  "plugins": [
+    {
+      "name": "pledge",
+      "source": "./plugins/pledge",
+      "description": "Create, send and store contracts with your agent."
+    }
+  ]
+}

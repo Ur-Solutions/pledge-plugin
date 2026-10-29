@@ -1,0 +1,7 @@
+{
+  "name": "pledge",
+  "owner": { "name": "Ur Solutions" },
+  "plugins": [
+    { "name": "pledge", "source": "./plugins/pledge", "description": "Create, send and store contracts with your agent." }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pledge",
+  "plugins": [
+    {
+      "name": "pledge",
+      "source": { "source": "local", "path": "./plugins/pledge" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "pledge",
+  "version": "1.0.0",
+  "description": "Create, send and store contracts with your agent. Pledge asks what you need, drafts the contract from your templates, shows it in the chat and sends it for signing when you say so.",
+  "author": {
+    "name": "Ur Solutions AS",
+    "email": "contact@ursolutions.no",
+    "url": "https://www.pledge.no"
+  },
+  "homepage": "https://www.pledge.no/agents",
+  "keywords": [
+    "contracts",
+    "e-signature",
+    "agreements",
+    "clients",
+    "templates"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Pledge",
+    "shortDescription": "Contracts with your agent",
+    "longDescription": "Pledge lets you write, send and keep contracts without leaving your agent. Ask for a contract in your own words, and the agent asks the few things it needs (the kind of contract, the client, the value and who signs), drafts it from your Pledge templates and saves it in your workspace. In ChatGPT the contract appears as an editable document: change the text, fill in fields, ask for changes and press Send. Signers get a link to sign, and the signed copy is stored in Pledge with its audit trail.\n\nWho it's for: small businesses and consultancies that send offers, NDAs, service agreements and retainers.\n\nYou need a Pledge account. The agent works as you, in the workspace you pick when you connect, with read-only or read-and-write access. It never sends a contract unless you press Send or tell it to, and there are no delete tools.",
+    "developerName": "Ur Solutions AS",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://www.pledge.no",
+    "supportURL": "https://www.pledge.no/agents",
+    "privacyPolicyURL": "https://www.pledge.no/privacy",
+    "termsOfServiceURL": "https://www.pledge.no/terms",
+    "defaultPrompt": [
+      "Draft an NDA for a new client and show it to me",
+      "Make a consulting agreement for 40 hours a month",
+      "Which of my contracts end in the next three months?"
+    ],
+    "brandColor": "#161715",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.svg"
+  }
+}
