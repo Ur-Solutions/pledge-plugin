@@ -1,6 +1,6 @@
 {
   "name": "pledge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create, send and store contracts with your agent. Pledge asks what you need, drafts the contract from your templates, shows it in the chat and sends it for signing when you say so.",
   "author": {
     "name": "Ur Solutions AS",
@@ -9,6 +9,10 @@
   },
   "homepage": "https://www.pledge.no/agents",
   "privacyPolicyUrl": "https://www.pledge.no/privacy",
+  "termsOfServiceUrl": "https://www.pledge.no/terms",
+  "supportUrl": "https://www.pledge.no/agents",
+  "documentationUrl": "https://www.pledge.no/agents",
+  "repository": "https://github.com/Ur-Solutions/pledge-plugin",
   "license": "MIT",
   "keywords": [
     "contracts",
