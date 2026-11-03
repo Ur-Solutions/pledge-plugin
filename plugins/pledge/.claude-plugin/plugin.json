@@ -1,13 +1,13 @@
 {
   "name": "pledge",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create, send and store contracts with your agent. Pledge asks what you need, drafts the contract from your templates, shows it in the chat and sends it for signing when you say so.",
   "author": {
     "name": "Ur Solutions AS",
     "email": "contact@ursolutions.no",
     "url": "https://www.pledge.no"
   },
-  "homepage": "https://www.pledge.no/agents",
+  "homepage": "https://www.pledge.no",
   "privacyPolicyUrl": "https://www.pledge.no/privacy",
   "termsOfServiceUrl": "https://www.pledge.no/terms",
   "supportUrl": "https://www.pledge.no/agents",
