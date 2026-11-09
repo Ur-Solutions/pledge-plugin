@@ -32,6 +32,8 @@ Ask two or three short questions per message, in this order, skipping anything y
 
 ## 3. Create the draft early
 
+Don't call `create_contract` or `preview_contract` before you've asked who the contract is for, unless the user already said. A contract without a client shows empty client fields and can't be sent.
+
 Call `create_contract` as soon as you know the type and the client, with what you have so far (title, templateId, clientId, value, currency, billing, dates, fieldValues). The draft is saved in Pledge from then on. Fill in the rest with `update_contract` as answers come in.
 
 ## 4. Show the contract
