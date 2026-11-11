@@ -36,6 +36,13 @@ Don't call `create_contract` or `preview_contract` before you've asked who the c
 
 Call `create_contract` as soon as you know the type and the client, with what you have so far (title, templateId, clientId, value, currency, billing, dates, fieldValues). The draft is saved in Pledge from then on. Fill in the rest with `update_contract` as answers come in.
 
+### When the user gives you a PDF
+
+A PDF is either a contract to send for signing, or one that everyone already signed outside Pledge and that only needs keeping on record. Unless the user said which, ask: "Should I send this for signing, or is it already signed?" Never treat a PDF as signed because it was given to you.
+
+- To send for signing: `upload_file` → PUT the bytes → `confirm_upload` → `create_contract` with `fileId` (and the client, value and dates; a PDF has no template, body or fields), then continue from step 4.
+- Already signed: `import_historical_contract` with `status: "signed"`, who signed (`signedBy`) and when. It's marked Imported and can't be sent.
+
 ## 4. Show the contract
 
 Call `preview_contract` and show the user:
